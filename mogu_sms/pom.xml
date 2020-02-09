@@ -97,6 +97,12 @@
             <artifactId>aliyun-java-sdk-core</artifactId>
             <version>${aliyun.java.sdk.core.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
         <!--
         <dependency>
